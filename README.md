@@ -42,5 +42,17 @@ https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
 [TextInput](https://reactnative.dev/docs/textinput) <br><br>
 
 
+#####  Xóa cache của CocoaPods: 
+
+<div class="code-snippet">
+  <pre>
+    <code>
+     pod cache clean --all
+
+    </code>
+  </pre>
+  <button class="copy-button" data-clipboard-target=".code-snippet"></button>
+</div> <br>
+
 
 
