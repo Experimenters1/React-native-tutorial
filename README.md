@@ -32,4 +32,15 @@ https://reactnative.dev/docs/environment-setup?guide=native <br>
 </div> <br>
 
 https://chat.openai.com/c/eab491ad-62d3-4b41-8ad1-79205dc33169 <br>
-https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400
+https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
+
+
+[Bottom Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator) <br><br>
+
+[TouchableOpacity](https://reactnative.dev/docs/touchableopacity) <br><br>
+
+[TextInput](https://reactnative.dev/docs/textinput) <br><br>
+
+
+
+
