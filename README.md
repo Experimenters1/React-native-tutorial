@@ -30,3 +30,6 @@ https://reactnative.dev/docs/environment-setup?guide=native <br>
   </pre>
   <button class="copy-button" data-clipboard-target=".code-snippet"></button>
 </div> <br>
+
+https://chat.openai.com/c/eab491ad-62d3-4b41-8ad1-79205dc33169 <br>
+https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400
