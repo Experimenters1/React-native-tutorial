@@ -96,6 +96,38 @@ console.log(varVariable); // Output: "I am var"
 console.log(letVariable); // ReferenceError: letVariable is not defined
 
 ```
+Trong ví dụ này, biến **varVariable** được khai báo với **var** và có thể truy cập được từ bên ngoài **block {}** vì **var** có phạm vi là **function-scoped** hoặc **global-scoped** nếu nó không được khai báo trong một hàm. Ngược lại, **letVariable** được khai báo với **let** và chỉ có thể truy cập được trong **block {}** nơi nó được khai báo, vì let là **block-scoped.** <br><br>
+
+### Ví dụ 2: Cập nhật giá trị 
+```javascript
+var varVariable = "I am var";
+varVariable = "I am updated var";
+console.log(varVariable); // Output: "I am updated var"
+
+let letVariable = "I am let";
+letVariable = "I am updated let";
+console.log(letVariable); // Output: "I am updated let"
+
+const constVariable = "I am const";
+constVariable = "I am updated const"; // TypeError: Assignment to constant variable.
+
+```
 
 
+Trong ví dụ này, **varVariable** và **letVariable** đều có thể được cập nhật giá trị. Tuy nhiên, **constVariable** không thể được cập nhật sau khi nó đã được khởi tạo, và cố gắng làm như vậy sẽ dẫn đến một lỗi. <br><br>
 
+### Ví dụ 3: Khởi tạo giá trị
+```javascript
+var varVariable; // OK
+let letVariable; // OK
+const constVariable; // SyntaxError: Missing initializer in const declaration
+
+```
+Khi khai báo một biến với **const,** bạn cần phải khởi tạo một giá trị cho nó ngay lập tức. Điều này khác với **var và let,** nơi bạn có thể khai báo mà không cần khởi tạo ngay lập tức. <br><br>
+
+Khi khai báo một biến với **const**, bạn cần phải khởi tạo một giá trị cho nó ngay lập tức. Điều này khác với **var và let,** nơi bạn có thể khai báo mà không cần khởi tạo ngay lập tức. <br><br>
+
+## Tóm Lược
++ ) **var** cho phép bạn khai báo biến có thể được cập nhật và tái khai báo trong cùng một phạm vi. Nó có phạm vi sử dụng là **function-scoped** hoặc **global-scoped.**
++ ) **let** cho phép bạn khai báo biến có phạm vi **block-scoped** và có thể được cập nhật nhưng không thể tái khai báo trong cùng một phạm vi.
++ )  **const** giống như  **let** về phạm vi sử dụng, nhưng không thể cập nhật hay tái khai báo. Mọi biến khai báo với const cần phải được khởi tạo giá trị ngay khi khai báo.
