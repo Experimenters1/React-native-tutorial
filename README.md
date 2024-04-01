@@ -77,6 +77,10 @@ const x = false ?? 10
 - ) **useState: Hook** này được sử dụng để khai báo một biến trạng thái mà bạn có thể cập nhật trực tiếp. Nó trả về một mảng chứa trạng thái hiện tại và một hàm để cập nhật trạng thái đó. <br><br>
 - ) **useEffect: Hook** này cho phép bạn thực hiện các tác vụ phụ **(side effects)** trong các thành phần của mình. Các tác vụ phụ là bất kỳ điều gì có thể thay đổi bên ngoài React, chẳng hạn như thực hiện các yêu cầu fetch dữ liệu, đăng ký lắng nghe sự kiện hoặc thay đổi DOM trực tiếp. <br><br>
 
+ **Một functional component** là một hàm **JavaScript hoặc TypeScript** trả về **JSX,** là một cú pháp mở rộng cho **JavaScript** được sử dụng để mô tả  **UI. JSX ** sau đó được biên dịch thành các lệnh gọi  **React.createElement,** tạo ra đối tượng mô tả DOM mà bạn muốn tạo. <br><br>
+**useEffect là một Hook** cho phép bạn thực hiện **side effects trong functional components.** **Side effects** là các hoạt động mà có thể ảnh hưởng đến các components khác hoặc không thể thực hiện trong quá trình render, ví dụ như gọi API, đăng ký/dỡ bỏ sự kiện, thay đổi DOM trực tiếp, và in ra console.
+ <br><br>
+
 
 
 
