@@ -82,6 +82,19 @@ const x = false ?? 10
  <br><br>
 
 
+## Dưới đây là ví dụ minh họa sự khác biệt giữa var, let, và const qua một số tình huống cụ thể: <br><br>
+### Ví dụ 1: Phạm vi sử dụng (Scope)
+
+```javascript
+if (true) {
+    var varVariable = "I am var";
+    let letVariable = "I am let";
+}
+
+console.log(varVariable); // Output: "I am var"
+console.log(letVariable); // ReferenceError: letVariable is not defined
+
+```
 
 
 
