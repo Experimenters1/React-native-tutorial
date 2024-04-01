@@ -70,6 +70,8 @@ const x = false ?? 10
 
 ![image](https://github.com/Experimenters1/React-native-tutorial/assets/64000769/30fd1b04-0c5d-4167-8c95-e492a0e2e777) <br><br>
 
+![Screenshot 2024-04-01 at 11 26 59](https://github.com/Experimenters1/React-native-tutorial/assets/64000769/231d29ad-a8ea-4167-b7ce-409f094e7ff8) <br><br>
+
 
 
 
