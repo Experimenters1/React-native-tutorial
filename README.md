@@ -72,6 +72,12 @@ const x = false ?? 10
 
 ![Screenshot 2024-04-01 at 11 26 59](https://github.com/Experimenters1/React-native-tutorial/assets/64000769/231d29ad-a8ea-4167-b7ce-409f094e7ff8) <br><br>
 
+**Built-in React Hooks** là các hàm đặc biệt cho phép bạn **"hook"** (gắn) vào các tính năng trạng thái và vòng đời của React từ các thành phần chức năng **(functional components).** Nói cách khác, chúng cung cấp cách thức để quản lý trạng thái, thực hiện các tác vụ phụ **(side effects)** và truy cập các tính năng khác của React mà trước đây chỉ có thể thực hiện được trong các thành phần lớp **(class components).**  <br><br>
+
+- ) **useState: Hook** này được sử dụng để khai báo một biến trạng thái mà bạn có thể cập nhật trực tiếp. Nó trả về một mảng chứa trạng thái hiện tại và một hàm để cập nhật trạng thái đó. <br><br>
+- ) **useEffect: Hook** này cho phép bạn thực hiện các tác vụ phụ **(side effects)** trong các thành phần của mình. Các tác vụ phụ là bất kỳ điều gì có thể thay đổi bên ngoài React, chẳng hạn như thực hiện các yêu cầu fetch dữ liệu, đăng ký lắng nghe sự kiện hoặc thay đổi DOM trực tiếp. <br><br>
+
+
 
 
 
