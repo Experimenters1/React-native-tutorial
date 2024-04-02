@@ -131,3 +131,5 @@ Khi khai báo một biến với **const**, bạn cần phải khởi tạo mộ
 + ) **var** cho phép bạn khai báo biến có thể được cập nhật và tái khai báo trong cùng một phạm vi. Nó có phạm vi sử dụng là **function-scoped** hoặc **global-scoped.**
 + ) **let** cho phép bạn khai báo biến có phạm vi **block-scoped** và có thể được cập nhật nhưng không thể tái khai báo trong cùng một phạm vi.
 + )  **const** giống như  **let** về phạm vi sử dụng, nhưng không thể cập nhật hay tái khai báo. Mọi biến khai báo với const cần phải được khởi tạo giá trị ngay khi khai báo.
+
+https://chat.openai.com/c/7e4bee7b-965e-4810-a12c-d1f726cd3035
