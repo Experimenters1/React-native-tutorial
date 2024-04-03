@@ -53,6 +53,18 @@ https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
   <button class="copy-button" data-clipboard-target=".code-snippet"></button>
 </div> <br>
 
+#####  Lệnh để xóa bộ nhớ cache trong Yarn là:
+<div class="code-snippet">
+  <pre>
+    <code>
+    yarn cache clean
+    </code>
+  </pre>
+  <button class="copy-button" data-clipboard-target=".code-snippet"></button>
+</div> <br>
+
+
+
 
 [find va filter javascript](https://www.google.com/search?q=find+va+filter+javascript&rlz=1C5CHFA_enVN1013VN1013&oq=find+va+filter+&gs_lcrp=EgZjaHJvbWUqBwgGECEYnwUyCQgAEEUYORifBTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCTExOTQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8) <br><br>
 
