@@ -144,4 +144,7 @@ Khi khai báo một biến với **const**, bạn cần phải khởi tạo mộ
 + ) **let** cho phép bạn khai báo biến có phạm vi **block-scoped** và có thể được cập nhật nhưng không thể tái khai báo trong cùng một phạm vi.
 + )  **const** giống như  **let** về phạm vi sử dụng, nhưng không thể cập nhật hay tái khai báo. Mọi biến khai báo với const cần phải được khởi tạo giá trị ngay khi khai báo.
 
+
+## Lưu ý:
+ Khi hiển thị giá trị **undefined** trong **React Native hoặc React**, nó sẽ không hiển thị gì cả. Đối với **null**, bạn cũng sẽ không thấy gì được hiển thị, nhưng biết rằng **null** được chấp nhận như một giá trị có thể **render,** chỉ đơn giản là không hiển thị gì. <br><br>
 https://chat.openai.com/c/7e4bee7b-965e-4810-a12c-d1f726cd3035
