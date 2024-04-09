@@ -64,6 +64,16 @@ https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
 </div> <br>
 
 
+### Trong trường hợp này, "build_apk" là một lệnh tùy chỉnh đã được thêm vào. Để sử dụng lệnh này, bạn sẽ chạy lệnh sau từ terminal hoặc command prompt trong thư mục gốc của dự án:
+
+<div class="code-snippet">
+  <pre>
+    <code>
+    yarn build_apk
+    </code>
+  </pre>
+  <button class="copy-button" data-clipboard-target=".code-snippet"></button>
+</div> <br>
 
 
 [find va filter javascript](https://www.google.com/search?q=find+va+filter+javascript&rlz=1C5CHFA_enVN1013VN1013&oq=find+va+filter+&gs_lcrp=EgZjaHJvbWUqBwgGECEYnwUyCQgAEEUYORifBTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCTExOTQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8) <br><br>
