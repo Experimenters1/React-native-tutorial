@@ -35,6 +35,8 @@ https://chat.openai.com/c/eab491ad-62d3-4b41-8ad1-79205dc33169 <br>
 https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
 
 
+
+
 [Bottom Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator) <br><br>
 
 [TouchableOpacity](https://reactnative.dev/docs/touchableopacity) <br><br>
@@ -158,3 +160,19 @@ Khi khai báo một biến với **const**, bạn cần phải khởi tạo mộ
 ## Lưu ý:
  Khi hiển thị giá trị **undefined** trong **React Native hoặc React**, nó sẽ không hiển thị gì cả. Đối với **null**, bạn cũng sẽ không thấy gì được hiển thị, nhưng biết rằng **null** được chấp nhận như một giá trị có thể **render,** chỉ đơn giản là không hiển thị gì. <br><br>
 https://chat.openai.com/c/7e4bee7b-965e-4810-a12c-d1f726cd3035
+
+
+
+
+#### Thêm Đường Dẫn Android SDK Platform-Tools vào $PATH
+![image](https://github.com/Experimenters1/React-native-tutorial/assets/64000769/86f347a6-9069-44a7-a400-598bce50ea87) <br><br>
+<div class="code-snippet">
+  <pre>
+    <code>
+    export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
+    </code>
+  </pre>
+  <button class="copy-button" data-clipboard-target=".code-snippet"></button>
+</div> <br>
+
+
