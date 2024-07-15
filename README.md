@@ -208,4 +208,23 @@ console.log(pmmValue);  // Output: "0136428247459aff"
 
 Trong ví dụ trên, **balanceLabel** là một đối tượng với nhiều thuộc tính, và bạn có thể lấy giá trị của thuộc tính **pmm** bằng cách sử dụng dấu ngoặc vuông vì tên thuộc tính có chứa dấu cách. <br><br>
 
+Trong React Native, để kiểm tra hệ điều hành và thực hiện các hành động cụ thể cho từng nền tảng, bạn có thể sử dụng **Platform.OS.** Trong trường hợp của bạn, đoạn mã **if (Platform.OS === 'ios') { ... }** kiểm tra xem nền tảng có phải là **iOS** hay không. Nếu bạn muốn kiểm tra xem nền tảng có phải là **Android** hay không, bạn có thể sử dụng **Platform.OS === 'android'**. Dưới đây là một ví dụ đầy đủ: <br><br>
+
+```javascript
+
+import { Platform } from 'react-native';
+
+if (Platform.OS === 'ios') {
+  // Thực hiện các hành động dành riêng cho iOS
+  console.log('Đây là iOS');
+} else if (Platform.OS === 'android') {
+  // Thực hiện các hành động dành riêng cho Android
+  console.log('Đây là Android');
+} else {
+  // Thực hiện các hành động cho các nền tảng khác (nếu có)
+  console.log('Đây là nền tảng khác');
+}
+
+
+```
 
