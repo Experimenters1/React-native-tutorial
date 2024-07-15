@@ -186,4 +186,26 @@ https://chat.openai.com/c/7e4bee7b-965e-4810-a12c-d1f726cd3035
   <button class="copy-button" data-clipboard-target=".code-snippet"></button>
 </div> <br>
 
+Trong JavaScript, nếu bạn có một đối tượng với các thuộc tính như đã nêu, bạn có thể truy cập giá trị của thuộc tính **pmm** bằng cách sử dụng cú pháp dấu chấm **(dot notation)** hoặc dấu ngoặc vuông **(bracket notation)**. Dưới đây là một ví dụ: <br><br>
+
+
+```javascript
+const balanceLabel = {
+  balanceLabel: 610,
+  cardType: "test",
+  idmLabel: "01010212c720b518",
+  "pmm ": "0136428247459aff",
+  systemCode: "0x0003"
+};
+
+// Sử dụng dấu ngoặc vuông vì tên thuộc tính có dấu cách
+const pmmValue = balanceLabel["pmm "];
+
+console.log(pmmValue);  // Output: "0136428247459aff"
+
+
+```
+
+Trong ví dụ trên, **balanceLabel** là một đối tượng với nhiều thuộc tính, và bạn có thể lấy giá trị của thuộc tính **pmm** bằng cách sử dụng dấu ngoặc vuông vì tên thuộc tính có chứa dấu cách. <br><br>
+
 
