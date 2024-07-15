@@ -193,8 +193,8 @@ Trong JavaScript, nếu bạn có một đối tượng với các thuộc tính
 const balanceLabel = {
   balanceLabel: 610,
   cardType: "test",
-  idmLabel: "01010212c720b518",
-  "pmm ": "0136428247459aff",
+  idmLabel: "0101021",
+  "pmm ": "01364282",
   systemCode: "0x0003"
 };
 
