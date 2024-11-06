@@ -229,3 +229,6 @@ if (Platform.OS === 'ios') {
 ```
 
 [JSDoc comment ](https://chatgpt.com/c/cdcb6829-e27a-42c3-aec8-f30584955a60) <br><br>
+
+**+)class component** <br><br>
+**+)component dạng function** <br><br>
