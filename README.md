@@ -89,10 +89,20 @@ https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
 </div> <br>
 
 #
+## Lệnh này đảm bảo rằng ứng dụng React Native của bạn sẽ bắt đầu với bộ cache hoàn toàn mới.
 <div class="code-snippet">
   <pre>
     <code>
    npm start --reset-cache
+    </code>
+  </pre>
+  <button class="copy-button" data-clipboard-target=".code-snippet"></button>
+</div> <br>
+
+<div class="code-snippet">
+  <pre>
+    <code>
+   yarn start -- --reset-cache
     </code>
   </pre>
   <button class="copy-button" data-clipboard-target=".code-snippet"></button>
