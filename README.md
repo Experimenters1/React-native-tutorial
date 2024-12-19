@@ -102,7 +102,7 @@ https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
 <div class="code-snippet">
   <pre>
     <code>
-   yarn start -- --reset-cache
+   yarn start --reset-cache
     </code>
   </pre>
   <button class="copy-button" data-clipboard-target=".code-snippet"></button>
