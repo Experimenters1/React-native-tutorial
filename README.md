@@ -109,6 +109,17 @@ https://chat.openai.com/c/e63dac01-3149-4c0a-abad-7b6990e05400 <br>
 </div> <br>
 
 
+### Khởi động Metro Bundler
+<div class="code-snippet">
+  <pre>
+    <code>
+   yarn start
+    </code>
+  </pre>
+  <button class="copy-button" data-clipboard-target=".code-snippet"></button>
+</div> <br>
+
+
 [find va filter javascript](https://www.google.com/search?q=find+va+filter+javascript&rlz=1C5CHFA_enVN1013VN1013&oq=find+va+filter+&gs_lcrp=EgZjaHJvbWUqBwgGECEYnwUyCQgAEEUYORifBTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCTExOTQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8) <br><br>
 
 [Truthy và Falsy trong JavaScript là gì ?](https://viblo.asia/p/truthy-va-falsy-trong-javascript-la-gi-RQqKLbjOl7z) <br><br>
