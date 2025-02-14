@@ -26,6 +26,7 @@ https://reactnative.dev/docs/environment-setup?guide=native <br>
   <pre>
     <code>
      npx react-native@latest init AwesomeProject
+      npx @react-native-community/cli init MyProject
     </code>
   </pre>
   <button class="copy-button" data-clipboard-target=".code-snippet"></button>
